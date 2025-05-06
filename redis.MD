@@ -1,7 +1,7 @@
 
-# 04-Redis
+# Redis
 
-Redis is used for in-memory data storage(Caching) and allows users to access the data of database over API.
+Redis (REmote DIctionary Server) is an open-source, in-memory data store used as a database, cache. It is known for ultra-fast performance due to its in-memory(stores in RAM) architecture. Uses a simple key-value model but supports complex data types.
 
 **Versions of the DB Software you will get context from the developer, Meaning we need to check with developer.**
 

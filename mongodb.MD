@@ -1,5 +1,4 @@
-
-# 02-MongoDB
+# MongoDB
 
 MongoDB is a popular NoSQL database designed for handling large volumes of unstructured or semi-structured data. Instead of using tables like in traditional SQL databases, MongoDB stores data in flexible, JSON-like documents.
 
@@ -17,7 +16,7 @@ MongoDB is a popular NoSQL database designed for handling large volumes of unstr
 
 ```json
 {
-  "_id": ObjectId("6638fa12345abc"),
+  "_id": "6638fa12345abc",
   "name": "Alice",
   "age": 30,
   "skills": ["Java", "DevOps"],
