@@ -8,15 +8,19 @@ Catalogue is a microservice that is responsible for serving the list of items th
 
 Install NodeJS, By default NodeJS 16 is available, We would like to enable 20 version and install list.
 
-**You can list modules by using `dnf module list`**
+**You can list modules by using `dnf module list nodejs`**
 
+Disable current module
 ```shell 
 dnf module disable nodejs -y
+```
+
+Enable required module
+```shell
 dnf module enable nodejs:20 -y
 ```
 
 Install NodeJS 
-
 ```shell 
 dnf install nodejs -y
 ```
@@ -30,7 +34,7 @@ We already discussed in Linux basics section that applications should run as non
 Add application User
 
 ```shell 
-useradd roboshop
+useradd --system --home /app --shell /sbin/nologin --comment "roboshop system user" roboshop
 ```
 
 User **roboshop** is a function / daemon user to run the application. Apart from that we dont use this user to login to server.
