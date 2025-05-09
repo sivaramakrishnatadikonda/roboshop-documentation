@@ -142,3 +142,29 @@ mongosh --host MONGODB-SERVER-IPADDRESS </app/db/master-data.js
 **NOTE:**
 You need to update catalogue server ip address in frontend configuration. 
 Configuration file is `/etc/nginx/nginx.conf` 
+
+Use below commands to check data is loaded into mongodb or not
+Connect to MongoDB
+```
+mongosh --host MONGODB-SERVER-IPADDRESS
+```
+
+Show databases
+```
+show dbs
+```
+
+Use database
+```
+use catalogue
+```
+
+Show Collections
+```
+show collections
+```
+
+Get the items in collection
+```
+db.products.find()
+```
