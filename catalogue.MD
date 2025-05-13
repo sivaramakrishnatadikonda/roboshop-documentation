@@ -118,7 +118,10 @@ Master data are usually provided by business operations team.
 
 To load schema / master data we need to install mongodb client and then we can load it.
 
-To have mongo client installed we have to setup MongoDB repo and install mongodb-client  
+To have mongo client installed we have to setup MongoDB repo and install mongodb-client. You can create file using
+
+```
+vim /etc/yum.repos.d/mongo.repo 
 
 ``` shell title=/etc/yum.repos.d/mongo.repo
 [mongodb-org-7.0]
