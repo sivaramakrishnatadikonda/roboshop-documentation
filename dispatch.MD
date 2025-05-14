@@ -19,7 +19,7 @@ We already discussed in Linux basics section that applications should run as non
 Add application User
 
 ```shell 
-useradd roboshop
+useradd --system --home /app --shell /sbin/nologin --comment "roboshop system user" roboshop
 ```
 
 User **roboshop** is a function / daemon user to run the application. Apart from that we dont use this user to login to server.
